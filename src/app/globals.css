@@ -6,4 +6,6 @@
   -webkit-appearance: none; /* iOS */
   -moz-appearance: none; /* Android */
   appearance: none; /* Web */
+
+  background-color: white;
 }
