@@ -61,3 +61,12 @@
   right: 0;
   bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .embla {
+    padding: 10px;
+  }
+  .embla__slide__img {
+    border-radius: 10px;
+  }
+}

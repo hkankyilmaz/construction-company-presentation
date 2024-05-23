@@ -4,12 +4,12 @@ import { FaAngleDown } from "react-icons/fa6";
 function Navbar({ type }) {
   const style =
     type == "slider"
-      ? "flex justify-between p-5 z-50 w-full absolute px-14 top-[50px] text-white"
+      ? "flex justify-between p-5 z-50 w-full absolute px-14 top-[50px] text-white max-lg:hidden"
       : "";
 
   return (
     <navbar className={style}>
-      <div>LOGO</div>
+      <div className="text-2xl tracking-wide">LOGO</div>
       <div className="flex justify-center items-center space-x-5">
         <LinkItem href="/about" text="Giriş" />
         <LinkItem href="/services" text="Proje" />
@@ -26,7 +26,7 @@ export default Navbar;
 function LinkItem({ href, text }) {
   return (
     <div className="flex justify-center items-center space-x-2">
-      <p> {text} </p>
+      <p className="text-xl tracking-wide"> {text} </p>
       <FaAngleDown className="" />
     </div>
   );

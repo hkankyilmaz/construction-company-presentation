@@ -4,6 +4,7 @@ import "./slider.style.css";
 import SliderEmbla from "./SliderEmbla";
 import Navbar from "../navbar/Navbar";
 import SliderContent from "./SliderContent";
+import SliderForm from "./SliderForm";
 
 export function Slider() {
   const OPTIONS = {
@@ -19,8 +20,9 @@ export function Slider() {
       <div className="relative">
         <Navbar type={"slider"} />
         <SliderEmbla slides={SLIDES} options={OPTIONS} />
-        <div>
+        <div className="max-lg:absolute max-lg:left-[50%] max-lg:translate-x-[-50%] max-lg:top-[8%] max-lg:flex max-lg:flex-col max-lg:space-y-8">
           <SliderContent />
+          <SliderForm />
         </div>
       </div>
     </>
