@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.select {
+  -webkit-appearance: none; /* iOS */
+  -moz-appearance: none; /* Android */
+  appearance: none; /* Web */
+}

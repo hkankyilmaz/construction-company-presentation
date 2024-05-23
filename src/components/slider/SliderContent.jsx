@@ -23,7 +23,7 @@ const SliderContent = () => {
   }, [texts.length]);
 
   return (
-    <div className="lg:absolute bottom-[150px] max-md:pl-[20px] lg:left-[7%] xl:left-[18%]">
+    <div className="lg:absolute bottom-[150px]  lg:left-[7%] xl:left-[18%]">
       <p className="text-2xl md:text-6xl text-white font-bold mb-1 uppercase">
         Yeni Bir
       </p>

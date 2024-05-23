@@ -21,7 +21,7 @@ function SliderForm() {
         type="text"
         placeholder="Telefon Numaranız"
       />
-      <select className="max-md:text-xs border bg-inputInnerColor p-2 md:p-3outline-none ring-0">
+      <select className="select max-md:text-xs border bg-inputInnerColor p-2 md:p-3outline-none ring-0">
         <option value="2+1">2+1</option>
         <option value="3+1">3+1</option>
         <option value="4+1">4+1</option>
