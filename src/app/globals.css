@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #ffffff;
+  height: 3000px;
+}
+
 .select {
   -webkit-appearance: none; /* iOS */
   -moz-appearance: none; /* Android */
