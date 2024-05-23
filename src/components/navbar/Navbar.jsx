@@ -1,9 +1,14 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa6";
 
-function Navbar() {
+function Navbar({ type }) {
+  const style =
+    type == "slider"
+      ? "flex justify-between p-5 z-50 w-full absolute px-14 top-[50px] text-white"
+      : "";
+
   return (
-    <navbar className="flex justify-between p-5 z-50 w-full absolute px-14 top-[50px]">
+    <navbar className={style}>
       <div>LOGO</div>
       <div className="flex justify-center items-center space-x-5">
         <LinkItem href="/about" text="Giriş" />

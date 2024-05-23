@@ -24,32 +24,32 @@ function SliderEmbla(props) {
 
   const imageByIndex = (index) => list[index % list.length];
 
-  const changeImnageListForMobile = () => {
-    setList(imagesMobile);
-  };
-  const changeImnageListForDesktop = () => {
-    setList(imagesDesktop);
-  };
+  // const changeImnageListForMobile = () => {
+  //   setList(imagesMobile);
+  // };
+  // const changeImnageListForDesktop = () => {
+  //   setList(imagesDesktop);
+  // };
 
-  useEffect(() => {
-    if (Responsive.getCurrentBreakpoint() === "phone") {
-      changeImnageListForMobile();
-    }
-    Responsive.matchesBreakpointWithoutMatchs("phone").addEventListener(
-      "change",
-      (e) => {
-        if (e.matches) {
-          changeImnageListForMobile();
-        } else {
-          changeImnageListForDesktop();
-        }
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   if (Responsive.getCurrentBreakpoint() === "phone") {
+  //     changeImnageListForMobile();
+  //   }
+  //   Responsive.matchesBreakpointWithoutMatchs("phone").addEventListener(
+  //     "change",
+  //     (e) => {
+  //       if (e.matches) {
+  //         changeImnageListForMobile();
+  //       } else {
+  //         changeImnageListForDesktop();
+  //       }
+  //     }
+  //   );
+  // }, []);
 
   const { slides, options } = props;
   const autoplayOptions = {
-    delay: 5000,
+    delay: 6000,
     stopOnInteraction: false,
     rootNode: (emblaRoot) => emblaRoot.parentElement,
   };
@@ -63,7 +63,8 @@ function SliderEmbla(props) {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((index) => (
-            <div className="embla__slide" key={index}>
+            <div className="embla__slide relative" key={index}>
+              <div className="absolute rounded-[30px] inset-0 flex items-center justify-center bg-black bg-opacity-30 z-10"></div>
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
               </div>

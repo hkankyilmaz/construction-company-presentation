@@ -17,7 +17,7 @@ export function Slider() {
   return (
     <>
       <div className="relative">
-        <Navbar />
+        <Navbar type={"slider"} />
         <SliderEmbla slides={SLIDES} options={OPTIONS} />
         <div>
           <SliderContent />

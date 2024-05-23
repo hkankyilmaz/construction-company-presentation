@@ -32,7 +32,7 @@ const SliderContent = () => {
       >
         {texts[currentTextIndex]}
       </p>
-      <button className="bg-yellow-600 hover:bg-white hover:shadow-xl  transition-all duration-[1s] font-bold py-4 px-6 rounded text-black">
+      <button className="bg-yellow-400 hover:bg-white hover:shadow-xl  transition-all duration-[0.6s] font-bold py-4 px-6 rounded text-black">
         KATALOĞUMUZU İNCELEYİN
       </button>
     </div>
