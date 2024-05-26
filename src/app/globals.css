@@ -16,6 +16,14 @@ body {
   background-color: white;
 }
 
+.ant-image-preview-wrap {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  object-fit: cover !important;
+}
+
 .section-three,
 .section-two,
 .section-four,
