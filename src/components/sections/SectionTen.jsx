@@ -32,12 +32,14 @@ function SectionTen() {
       <div className="flex flex-col space-y-12">
         <div className="flex  max-md:flex-col items-center max-md:space-y-6 md:space-x-16">
           <div className="flex flex-col max-md:justify-center max-md:items-center space-y-5 pl-4">
-            <span className="tabInfo ">YENİ DEĞER KONAKLARI / ALTUNİZADE</span>
+            <span className="tabInfo ">
+              &lsquo;YENİ DEĞER KONAKLARI / ALTUNİZADE&rsquo;
+            </span>
             <span className="text-3xl md:text-5xl">Proje Detayları</span>
           </div>
           <div>
-            Yeni Değer Konakları'nda her ihtiyaca ve her <br />
-            bütçeye göre tasarlanmış daireler mevcuttur.
+            Yeni Değer Konakları&apos;nda her ihtiyaca ve her bütçeye göre
+            tasarlanmış daireler mevcuttur.
           </div>
         </div>
         <div className="flex flex-col space-y-4">
