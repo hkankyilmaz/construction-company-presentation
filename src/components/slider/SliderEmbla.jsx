@@ -9,15 +9,15 @@ import { p } from "@/assets/photosUrl";
 
 function SliderEmbla(props) {
   const imagesDesktop = [
-    p.landingPage.slider.firstPhoto,
-    p.landingPage.slider.secondPhoto,
-    p.landingPage.slider.thirdPhoto,
+    p.slider.firstPhoto,
+    p.slider.secondPhoto,
+    p.slider.thirdPhoto,
   ];
 
   const imagesMobile = [
-    p.landingPage.slider.firstPhotoMobile,
-    p.landingPage.slider.thirdPhotoMobile,
-    p.landingPage.slider.secondPhotoMobile,
+    p.slider.firstPhotoMobile,
+    p.slider.thirdPhotoMobile,
+    p.slider.secondPhotoMobile,
   ];
 
   const [list, setList] = React.useState(imagesDesktop);
