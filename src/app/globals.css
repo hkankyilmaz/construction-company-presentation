@@ -73,11 +73,17 @@ body {
 /* Path: src/app/components/SectionSix.jsx */
 
 .section-six {
-  @apply flex justify-center max-md:flex-col items-center max-md:space-y-4 md:space-x-16 my-8 md:my-16 py-8 md:py-16;
+  @apply flex justify-center max-md:flex-col items-center max-md:space-y-4 md:space-x-16 my-8 md:my-24 py-8 md:py-16;
 }
 .section-six .block {
   @apply flex flex-col justify-center items-center;
 }
 .section-six .header {
   @apply text-2xl font-bold md:text-[32px] xl:text-[42px] xl:leading-[48px];
+}
+
+/* Path: src/app/components/SectionSeven.jsx */
+
+.section-seven {
+  @apply pt-[0px];
 }
