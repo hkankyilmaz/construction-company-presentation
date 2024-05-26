@@ -11,7 +11,6 @@ function SectionFour() {
           src={p.sectionOne.firstPhoto}
           alt="Section Two"
           width={1200}
-          height={600}
         />
       </div>
       <div className="section-card-wrapper four max-w-[700px]">

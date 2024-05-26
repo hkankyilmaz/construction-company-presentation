@@ -5,8 +5,8 @@ import { p } from "@/assets/photosUrl";
 
 function SectionNine() {
   return (
-    <section className="my-[60px] md:my-[120px] max-md:p-1">
-      <div className="flex flex-col justify-center items-center p-10 bg-[#072326] text-white">
+    <section className="my-[30px] md:my-[120px] max-md:p-1">
+      <div className="max-md:mb-1 flex flex-col justify-center items-center p-10 bg-[#072326] text-white">
         <h3 className="text-xs mb-2">PRJOE GÖRSELLERİ</h3>
         <h2 className="text-2xl md:text-5xl">Yeni Değer Konakları</h2>
       </div>
@@ -28,7 +28,7 @@ function SectionNine() {
         <Card src={p.sectionNine.twelfthPhoto} />
       </div>
       <div className="flex flex-col justify-center items-center p-10 bg-[#072326] text-white">
-        <h3 className=" mb-2">
+        <h3 className="text-center mb-2">
           Yeni Mimari İnşaat olarak; 25 yıllık inşaat deneyimimiz ve uzman
           ekiplerimizle, hayallerinizdeki konutları inşa ediyoruz.
         </h3>
