@@ -16,6 +16,9 @@ export const p = {
     },
     sectionOne: {
         firstPhoto: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Fvaziyet_planlari-03.jpg?alt=media&token=3f80afbe-a323-474f-aa6a-9ff929ed48b3"
+    },
+    sectionSix: {
+        backgroundImage: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Fsquare-pattern.png?alt=media&token=502f4c08-265f-4919-bbe4-1789675e8d0f"
     }
 
 };
