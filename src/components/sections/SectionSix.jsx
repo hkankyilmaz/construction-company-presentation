@@ -9,6 +9,9 @@ function SectionSix() {
   const [isInViewOnce, setIsInViewOnce] = React.useState(false);
   const [numbers, setNumbers] = React.useState([0, 0, 0]);
   React.useEffect(() => {
+    if (isInView) setIsInViewOnce(true);
+    if (isInViewOnce) return;
+
     let count1 = 0;
     let count2 = 0;
     let count3 = 0;
