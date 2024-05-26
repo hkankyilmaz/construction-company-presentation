@@ -38,7 +38,7 @@ function Navbar({ type }) {
 
   if (showNavbar) {
     return (
-      <navbar className="animate-scrollDown flex justify-between p-5 z-50 w-full px-14 sticky left-0 top-0 rigt-0 bg-white max-lg:hidden shadow-xl">
+      <navbar className="animate-scrollDown flex justify-between p-5 z-50 w-full px-14 fixed left-0 top-0 rigt-0 bg-white max-lg:hidden shadow-xl">
         <div className="text-2xl tracking-wide">
           <div className="relative w-[200px] flex justify-center items-center h-[60px] bg-[#072326]  rounded-xl">
             <Image
