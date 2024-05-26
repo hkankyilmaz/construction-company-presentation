@@ -12,6 +12,8 @@ module.exports = {
       animation: {
         fade: 'fadeOut 1s ease-in-out ',
         fadeIn: 'fadeIn 1s ease-in-out ',
+        scroll: 'scroll 0.5s ease-in-out ',
+        scrollDown: 'scrollDown 0.5s ease-in-out ',
 
       },
 
@@ -24,6 +26,14 @@ module.exports = {
         fadeIn: {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 },
+        },
+        scroll: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-100%)' },
+        },
+        scrollDown: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' },
         },
 
       }),
