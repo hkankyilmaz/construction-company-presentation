@@ -2,6 +2,9 @@
 
 export const p = {
 
+    pdf: {
+        one: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2FManzaraCengelkoy_BASKI_ic_sayfalar.pdf?alt=media&token=267bc85b-5238-4413-8e57-8c4113d1e96e"
+    },
     landingPage: {
         slider: {
             firstPhoto:

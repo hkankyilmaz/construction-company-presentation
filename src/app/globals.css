@@ -87,3 +87,17 @@ body {
 .section-seven {
   @apply pt-[0px];
 }
+
+/* Path: src/app/components/SectionEight.jsx */
+
+.section-eight {
+  @apply flex flex-col justify-center md:items-center max-md:p-5 space-y-12 m-auto lg:max-w-6xl;
+}
+
+.section-eight .blocks-wrapper {
+  @apply flex md:flex-row flex-col justify-between  items-start md:items-center mt-[30px] md:mt-[120px] max-md:space-y-1 md:space-x-16 xl:space-x-36 md:m-auto lg:max-w-6xl;
+}
+
+.section-eight .block {
+  @apply space-y-1 md:space-y-3;
+}
