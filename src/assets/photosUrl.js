@@ -14,5 +14,8 @@ export const p = {
         },
 
     },
+    sectionOne: {
+        firstPhoto: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Fvaziyet_planlari-03.jpg?alt=media&token=3f80afbe-a323-474f-aa6a-9ff929ed48b3"
+    }
 
 };

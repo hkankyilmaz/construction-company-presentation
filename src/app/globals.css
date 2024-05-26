@@ -5,6 +5,7 @@
 body {
   background-color: #ffffff;
   height: 3000px;
+  @apply tracking-normal;
 }
 
 .select {
@@ -13,4 +14,58 @@ body {
   appearance: none; /* Web */
 
   background-color: white;
+}
+
+.section-three,
+.section-two,
+.section-four,
+.section-five {
+  @apply grid grid-cols-1 max-lg:gap-y-6 max-xl:p-5 lg:grid-cols-2 m-auto pt-[120px];
+}
+.section-three,
+.section-two {
+  @apply lg:max-w-6xl;
+}
+
+.section-card-wrapper {
+  @apply flex flex-col justify-center space-y-6;
+}
+.section-image-wrapper {
+  @apply flex justify-center items-center;
+}
+.tabInfo {
+  @apply flex justify-center items-center bg-gray-300  px-2 py-1 text-xs uppercase rounded-md w-[80px];
+}
+.section-card-header {
+  @apply text-2xl md:text-[32px] xl:text-[42px] xl:leading-[48px];
+}
+.section-card-para {
+  @apply text-gray-500;
+}
+
+.section-two,
+.section-three {
+  @apply gap-x-5 xl:gap-x-16;
+}
+.section-four {
+  @apply max-xl:gap-x-5;
+}
+.section-five {
+  @apply max-xl:gap-x-5  pt-3;
+}
+.section-card-wrapper.five {
+  @apply max-xl:gap-x-5 xl:pl-36;
+}
+.section-card-wrapper.four {
+  @apply xl:lg:pl-16;
+}
+
+.section-card-wrapper.five,
+.section-card-wrapper.three {
+  @apply order-2 lg:order-1;
+}
+
+.section-image-wrapper.five,
+.section-image-wrapper.three {
+  @apply order-1 lg:order-2;
 }

@@ -59,7 +59,7 @@ export default Navbar;
 function LinkItem({ href, text }) {
   return (
     <div className="flex justify-center items-center space-x-2">
-      <p className="text-xl tracking-wide"> {text} </p>
+      <p className=" tracking-wide"> {text} </p>
       <FaAngleDown className="" />
     </div>
   );

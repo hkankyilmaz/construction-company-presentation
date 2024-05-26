@@ -2,7 +2,7 @@ import React from "react";
 
 function SliderForm() {
   return (
-    <form className="flex flex-col max-md:w-[310px] md:max-w-[600px] lg:absolute bg-white lg:bottom-[20%] lg:right-[7%] xl:right-[18%] space-y-3 md:space-y-5 p-4 md:p-20 rounded-2xl">
+    <form className="flex flex-col max-md:w-[310px] md:max-w-[450px] lg:absolute bg-white lg:bottom-[20%] lg:right-[7%] xl:right-[18%] space-y-3 md:space-y-5 p-4 md:p-10 rounded-2xl">
       <h2 className="text-lg md:text-2xl font-semibold">
         SİZ DE YENİ DEĞER&apos;E KATILIN!
       </h2>
