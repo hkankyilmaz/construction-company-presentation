@@ -10,7 +10,7 @@ function SectionNine() {
         <h3 className="text-xs mb-2">PRJOE GÖRSELLERİ</h3>
         <h2 className="text-2xl md:text-5xl">Yeni Değer Konakları</h2>
       </div>
-      <div className="grid grid-cols-2 py-1 md:grid-cols-4 md:grid-rows-4 gap-1">
+      <div className="grid grid-cols-2  md:grid-cols-4 md:grid-rows-4 gap-1">
         <Card src={p.sectionNine.firstPhoto} />
         <Card
           src={p.sectionNine.secondPhoto}
@@ -26,6 +26,12 @@ function SectionNine() {
         <Card src={p.sectionNine.tenthPhoto} />
         <Card src={p.sectionNine.eleventhPhoto} />
         <Card src={p.sectionNine.twelfthPhoto} />
+      </div>
+      <div className="flex flex-col justify-center items-center p-10 bg-[#072326] text-white">
+        <h3 className=" mb-2">
+          Yeni Mimari İnşaat olarak; 25 yıllık inşaat deneyimimiz ve uzman
+          ekiplerimizle, hayallerinizdeki konutları inşa ediyoruz.
+        </h3>
       </div>
     </section>
   );
