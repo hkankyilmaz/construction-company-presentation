@@ -36,8 +36,8 @@ function SectionTen() {
             <span className="text-3xl md:text-5xl">Proje Detayları</span>
           </div>
           <div>
-            Yeni Değer Konakları'nda her ihtiyaca ve her <br /> bütçeye göre
-            tasarlanmış daireler mevcuttur.
+            Yeni Değer Konakları'nda her ihtiyaca ve her <br />
+            bütçeye göre tasarlanmış daireler mevcuttur.
           </div>
         </div>
         <div className="flex flex-col space-y-4">
