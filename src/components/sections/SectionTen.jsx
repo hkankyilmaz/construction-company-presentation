@@ -20,7 +20,7 @@ function SectionTen() {
   ];
 
   return (
-    <section className="section-ten  m-auto flex-col xl:flex-row flex max-xl:space-y-12 xl:space-x-36 justify-center  items-center xl:items-start">
+    <section className="section-ten  m-auto flex-col xl:flex-row flex max-xl:space-y-6 xl:space-x-36 justify-center  items-center xl:items-start">
       <div className="flex flex-col">
         <span className=" font-semibold text-center">
           Projedeki Toplam Daire Sayısı
@@ -37,7 +37,7 @@ function SectionTen() {
             </span>
             <span className="text-3xl md:text-5xl">Proje Detayları</span>
           </div>
-          <div>
+          <div className="max-md:text-center">
             Yeni Değer Konakları&apos;nda her ihtiyaca ve her bütçeye göre
             tasarlanmış daireler mevcuttur.
           </div>

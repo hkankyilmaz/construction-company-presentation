@@ -4,7 +4,7 @@ import { p } from "@/assets/photosUrl";
 
 function SectionEleven() {
   return (
-    <section className="my-[120px]">
+    <section className="my-[50px] md:my-[120px]">
       <Image
         width={1900}
         height={400}
