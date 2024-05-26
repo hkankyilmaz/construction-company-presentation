@@ -37,6 +37,9 @@ export const p = {
         eleventhPhoto: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2FA15_SALON_8.jpg?alt=media&token=23d9634e-981a-49ee-b8f2-3607a430efe3", // 11
         twelfthPhoto: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2FA02_SALON_2.jpg?alt=media&token=00dd9b00-ebcd-468e-8746-e62d4bcab21c", // 12
 
-    }
+    },
 
+    sectionEleven: {
+        backgroundImage: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Fvaziyet_planlari-05.jpg?alt=media&token=eff72411-f580-4413-8631-13281d8f53b5"
+    },
 };

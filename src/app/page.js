@@ -10,6 +10,7 @@ import SectionSeven from "@/components/sections/SectionSeven";
 import SectionEight from "@/components/sections/SectionEight";
 import SectionNine from "@/components/sections/SectionNine";
 import SectionTen from "@/components/sections/SectionTen";
+import SectionEleven from "@/components/sections/SectionEleven";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <SectionEight />
       <SectionNine />
       <SectionTen />
+      <SectionEleven />
     </main>
   );
 }
