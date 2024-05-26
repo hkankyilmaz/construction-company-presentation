@@ -44,6 +44,7 @@ export const p = {
     },
 
     footer: {
-        backgroundImage: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Ffooter-bg-1.png?alt=media&token=97a037a8-d526-431b-969a-1703986eb39d"
+        backgroundImage: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Ffooter-bg-1.png?alt=media&token=97a037a8-d526-431b-969a-1703986eb39d",
+        logo: "https://firebasestorage.googleapis.com/v0/b/freelanceprojects-c301f.appspot.com/o/buket-projects%2Fphotos%2Fzemlogo_1200px.png?alt=media&token=ddf8b815-c3a4-4806-847e-eb8920dbe3ba"
     }
 };
